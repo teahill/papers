@@ -7,3 +7,22 @@ http://www.javacodegeeks.com/2014/02/dynamic-programming-introduction.html
 Jose Luis: Easy to understand Dynamic Programming – Edit distance
 http://www.javacodegeeks.com/2014/03/easy-to-understand-dynamic-programming-edit-distance.html
 
+
+Tree
+
+Determine if a Binary Tree is a Binary Search Tree (BST)
+http://www.leetcode.com/2010/09/determine-if-binary-tree-is-binary.html
+
+Saving a Binary Search Tree to a File
+http://www.leetcode.com/2010/09/saving-binary-search-tree-to-file.html
+
+
+Serialization/Deserialization of a Binary Tree
+http://www.leetcode.com/2010/09/serializationdeserialization-of-binary.html
+http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&ved=0CDQQFjAE&url=http%3A%2F%2Fstackoverflow.com%2Fquestions%2F4611555%2Fhow-to-serialize-binary-tree&ei=XikBVeKyBsudNtuahMgM&usg=AFQjCNETCTtLt_ox16unHMIwDtbPlPcrCg&sig2=0ieYZ5GvD3JLwtRCxghhWw&bvm=bv.87920726,d.eXY
+
+Printing a Binary Tree in Level Order
+http://www.leetcode.com/2010/09/printing-binary-tree-in-level-order.html
+
+Serialization/deserialization to general trees
+http://en.wikipedia.org/wiki/Binary_tree#Encodings
