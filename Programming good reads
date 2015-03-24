@@ -3,10 +3,23 @@
 Jose Luis: Dynamic Programming – Introduction
 http://www.javacodegeeks.com/2014/02/dynamic-programming-introduction.html
 
+Berkeley CS class chapter 6:
+http://www.cs.berkeley.edu/~vazirani/algorithms/chap6.pdf
 
 Jose Luis: Easy to understand Dynamic Programming – Edit distance
 http://www.javacodegeeks.com/2014/03/easy-to-understand-dynamic-programming-edit-distance.html
 
+Dynamic Programming vs Backtracking
+http://stackoverflow.com/questions/3592943/difference-between-back-tracking-and-dynamic-programming
+
+DP problems:
+http://people.cs.clemson.edu/~bcdean/dp_practice/
+http://en.wikipedia.org/wiki/Longest_common_subsequence_problem
+
+Backtracking problems:
+Eight queen puzzle
+Map coloring
+Sodoku ?
 
 Tree
 
@@ -32,3 +45,5 @@ Interview Experiences
 
 http://www.mitbbs.com/article_t/JobHunting/32884245.html
 http://www.mitbbs.com/article_t/JobHunting/32741713.html
+
+
