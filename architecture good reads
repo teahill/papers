@@ -1,1 +1,137 @@
 
+Micro Services
+
+Services: Declaration of Independence, Posted by Eugene Kalenkovich, MAR 16TH, 2015
+http://203.softover.com/2014/12/01/ultra-srevices-and-declaration-of-independence/
+
+Software read
+
+
+The law of Software engineering in just five bits - Hugo Ferreira
+http://www.slideshare.net/bytter/soft-eng-laws
+Design patterns: A lightweight introduction
+http://www.slideshare.net/bytter/design-patterns-a-lightweight-introduction
+Incomplete by design
+http://www.slideshare.net/bytter/agilept
+You don’t even know what you don’t know
+http://gadgetopia.com/post/6819
+
+
+Software practice
+Method chaining
+Martin Fowler on CommandQuerySeparation
+http://www.martinfowler.com/bliki/CommandQuerySeparation.html
+Queries
+Commands (a.k.a. in this context, modifier, mutator)
+Separation query (get) and command (set)
+Fluent interface (Domain specific Language) - http://martinfowler.com/bliki/FluentInterface.html
+private void makeFluent(Customer customer) {
+customer.newOrder()
+.with(6, "TAL")
+.with(5, "HPK").skippable()
+.with(3, "LGV")
+.priorityRush();
+}
+JMock - mock.expects(once()).method("m").with( or(stringContains("hello"),
+stringContains("howdy")) );
+If using fluent style, then mutator will break the convention of return void, it will have to return the right type, which mixes query with command
+where it makes sense is probably just stack pop
+
+Interview questions
+http://www.forbes.com/pictures/eglj45gdel/how-to-answer-the-trickiest-interview-questions/
+
+DB
+Cassandra vs MongoDB vs CouchDB vs Redis vs Riak vs HBase vs Couchbase vs Neo4j vs Hypertable vs ElasticSearch vs Accumulo vs VoltDB vs Scalaris comparison
+kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis
+PayPal + Couchbase
+http://www.couchbase.com/presentations/paypal-plus-couchbase
+Querying ElasticSearch - A Tutorial and Guide
+http://okfnlabs.org/blog/2013/07/01/elasticsearch-query-tutorial.html
+MongoDB’s Reliability Questioned
+http://www.infoq.com/news/2011/11/MongoDB-Criticism
+Big Data Right Now: Five Trendy Open Source Technologies
+http://techcrunch.com/2012/10/27/big-data-right-now-five-trendy-open-source-technologies/
+D3.js
+http://d3js.org/
+
+Software Tools
+Git - http://www.youtube.com/watch?v=OFkgSjRnay4&feature=related
+Sri - I have been a happy user of Log viewer plugin in eclipse. I wanted to see if anyone else on the team has used it and what your experience has been and if we should consider making it a standard eBay bundled eclipse plugin.
+The plugin can be found @ http://code.google.com/a/eclipselabs.org/p/logviewer/
+yUML
+http://yuml.me/
+
+Netflix engineering
+Embracing the Differences : Inside the Netflix API Redesign
+http://techblog.netflix.com/2012/07/embracing-differences-inside-netflix.html
+Twitter Open-Sources Clutch.IO, The Mobile A/B Testing Service It Recently Acquired
+http://techcrunch.com/2012/10/11/twitter-open-sources-clutch-io-the-mobile-ab-testing-service-it-recently-acquired/
+Why did infinite scroll fail at Etsy?
+http://danwin.com/2013/01/infinite-scroll-fail-etsy/
+
+Google engieering
+http://googleblog.blogspot.com/2011/09/time-technology-and-leaping-seconds.html
+
+Niklas on technical debt & competence debt
+http://www.leanway.no/competence-debt/
+
+life tips
+http://twistedsifter.com/2013/01/50-life-hacks-to-simplify-your-world/
+
+Amazon AWS
+2011/04 - Summary of the Amazon EC2 and Amazon RDS Service Disruption in the US East Region
+http://aws.amazon.com/message/65648/
+rightscale blog - http://blog.rightscale.com/2011/05/02/aws-outage-follow-up-if-you-wanted-details-you-got-details/
+http://blog.rightscale.com/2011/04/25/amazon-ec2-outage-summary-and-lessons-learned/
+Amazon architecture resources
+Amazon web service
+http://aws.amazon.com/architecture/
+Best Practices For Architecting In The Cloud -
+Webinar: http://www.slideshare.net/AmazonWebServices/best-practices-for-architecting-in-the-cloud
+Slides: http://www.slideshare.net/AmazonWebServices/best-practices-in-architecting-for-the-cloud-webinar-jinesh-varia
+Q&A: http://mkto-e0013.com/track?type=click&enid=bWFpbGluZ2lkPWFtYXpvbndlYnNlcnZpY2VzQmV0YWN1c3QtMTM2Ni0xMzc3LTAtMTM1MC1wcm9kLTkyNCZtZXNzYWdlaWQ9MCZkYXRhYmFzZWlkPTkyNCZzZXJpYWw9MTI5NzM4ODM3OCZlbWFpbGlkPXp5YW5nQGViYXkuY29tJnVzZXJpZD0yNjAxMjcmZXh0cmE9JiYm&&&http://bit.ly/kIE0PG?mkt_tok=3RkMMJWWfF9wsRonuKrPZKXonjHpfsX67ewsW6Cg38431UFwdcjKPmjr1YICScJ0dvycMRAVFZl5nQ1VG%2FqacpdF%2BOZYGVe7Wz7s
+Resources
+• Recorded Webinars - http://mkto-e0013.com/track?type=click&enid=bWFpbGluZ2lkPWFtYXpvbndlYnNlcnZpY2VzQmV0YWN1c3QtMTM2Ni0xMzc3LTAtMTM1MC1wcm9kLTkyNCZtZXNzYWdlaWQ9MCZkYXRhYmFzZWlkPTkyNCZzZXJpYWw9MTI5NzM4ODM3OCZlbWFpbGlkPXp5YW5nQGViYXkuY29tJnVzZXJpZD0yNjAxMjcmZXh0cmE9JiYm&&&http://aws.amazon.com/resources/webinars/recorded-videos-and-webinars/?mkt_tok=3RkMMJWWfF9wsRonuKrPZKXonjHpfsX67ewsW6Cg38431UFwdcjKPmjr1YICScJ0dvycMRAVFZl5nQ1VG%2FqacpdF%2BOZYGVe7Wz7s
+• AWS Architecture Center - http://mkto-e0013.com/track?type=click&enid=bWFpbGluZ2lkPWFtYXpvbndlYnNlcnZpY2VzQmV0YWN1c3QtMTM2Ni0xMzc3LTAtMTM1MC1wcm9kLTkyNCZtZXNzYWdlaWQ9MCZkYXRhYmFzZWlkPTkyNCZzZXJpYWw9MTI5NzM4ODM3OCZlbWFpbGlkPXp5YW5nQGViYXkuY29tJnVzZXJpZD0yNjAxMjcmZXh0cmE9JiYm&&&http://aws.amazon.com/architecture?mkt_tok=3RkMMJWWfF9wsRonuKrPZKXonjHpfsX67ewsW6Cg38431UFwdcjKPmjr1YICScJ0dvycMRAVFZl5nQ1VG%2FqacpdF%2BOZYGVe7Wz7s
+• AWS Economics Center - http://mkto-e0013.com/track?type=click&enid=bWFpbGluZ2lkPWFtYXpvbndlYnNlcnZpY2VzQmV0YWN1c3QtMTM2Ni0xMzc3LTAtMTM1MC1wcm9kLTkyNCZtZXNzYWdlaWQ9MCZkYXRhYmFzZWlkPTkyNCZzZXJpYWw9MTI5NzM4ODM3OCZlbWFpbGlkPXp5YW5nQGViYXkuY29tJnVzZXJpZD0yNjAxMjcmZXh0cmE9JiYm&&&http://aws.amazon.com/economics?mkt_tok=3RkMMJWWfF9wsRonuKrPZKXonjHpfsX67ewsW6Cg38431UFwdcjKPmjr1YICScJ0dvycMRAVFZl5nQ1VG%2FqacpdF%2BOZYGVe7Wz7s
+• AWS Simple Monthly Calculator - http://mkto-e0013.com/track?type=click&enid=bWFpbGluZ2lkPWFtYXpvbndlYnNlcnZpY2VzQmV0YWN1c3QtMTM2Ni0xMzc3LTAtMTM1MC1wcm9kLTkyNCZtZXNzYWdlaWQ9MCZkYXRhYmFzZWlkPTkyNCZzZXJpYWw9MTI5NzM4ODM3OCZlbWFpbGlkPXp5YW5nQGViYXkuY29tJnVzZXJpZD0yNjAxMjcmZXh0cmE9JiYm&&&http://calculator.s3.amazonaws.com/calc5.html?mkt_tok=3RkMMJWWfF9wsRonuKrPZKXonjHpfsX67ewsW6Cg38431UFwdcjKPmjr1YICScJ0dvycMRAVFZl5nQ1VG%2FqacpdF%2BOZYGVe7Wz7s
+• AWS Security Center - http://mkto-e0013.com/track?type=click&enid=bWFpbGluZ2lkPWFtYXpvbndlYnNlcnZpY2VzQmV0YWN1c3QtMTM2Ni0xMzc3LTAtMTM1MC1wcm9kLTkyNCZtZXNzYWdlaWQ9MCZkYXRhYmFzZWlkPTkyNCZzZXJpYWw9MTI5NzM4ODM3OCZlbWFpbGlkPXp5YW5nQGViYXkuY29tJnVzZXJpZD0yNjAxMjcmZXh0cmE9JiYm&&&http://aws.amazon.com/security?mkt_tok=3RkMMJWWfF9wsRonuKrPZKXonjHpfsX67ewsW6Cg38431UFwdcjKPmjr1YICScJ0dvycMRAVFZl5nQ1VG%2FqacpdF%2BOZYGVe7Wz7s
+• Cloud Migration Whitepaper - http://mkto-e0013.com/track?type=click&enid=bWFpbGluZ2lkPWFtYXpvbndlYnNlcnZpY2VzQmV0YWN1c3QtMTM2Ni0xMzc3LTAtMTM1MC1wcm9kLTkyNCZtZXNzYWdlaWQ9MCZkYXRhYmFzZWlkPTkyNCZzZXJpYWw9MTI5NzM4ODM3OCZlbWFpbGlkPXp5YW5nQGViYXkuY29tJnVzZXJpZD0yNjAxMjcmZXh0cmE9JiYm&&&http://media.amazonwebservices.com/CloudMigration-main.pdf?mkt_tok=3RkMMJWWfF9wsRonuKrPZKXonjHpfsX67ewsW6Cg38431UFwdcjKPmjr1YICScJ0dvycMRAVFZl5nQ1VG%2FqacpdF%2BOZYGVe7Wz7s
+• Amazon EC2 Getting Started Guide - http://mkto-e0013.com/track?type=click&enid=bWFpbGluZ2lkPWFtYXpvbndlYnNlcnZpY2VzQmV0YWN1c3QtMTM2Ni0xMzc3LTAtMTM1MC1wcm9kLTkyNCZtZXNzYWdlaWQ9MCZkYXRhYmFzZWlkPTkyNCZzZXJpYWw9MTI5NzM4ODM3OCZlbWFpbGlkPXp5YW5nQGViYXkuY29tJnVzZXJpZD0yNjAxMjcmZXh0cmE9JiYm&&&http://bit.ly/iEuDh?mkt_tok=3RkMMJWWfF9wsRonuKrPZKXonjHpfsX67ewsW6Cg38431UFwdcjKPmjr1YICScJ0dvycMRAVFZl5nQ1VG%2FqacpdF%2BOZYGVe7Wz7s
+• AWS Elastic Beanstalk - http://mkto-e0013.com/track?type=click&enid=bWFpbGluZ2lkPWFtYXpvbndlYnNlcnZpY2VzQmV0YWN1c3QtMTM2Ni0xMzc3LTAtMTM1MC1wcm9kLTkyNCZtZXNzYWdlaWQ9MCZkYXRhYmFzZWlkPTkyNCZzZXJpYWw9MTI5NzM4ODM3OCZlbWFpbGlkPXp5YW5nQGViYXkuY29tJnVzZXJpZD0yNjAxMjcmZXh0cmE9JiYm&&&http://aws.amazon.com/elasticbeanstalk/?mkt_tok=3RkMMJWWfF9wsRonuKrPZKXonjHpfsX67ewsW6Cg38431UFwdcjKPmjr1YICScJ0dvycMRAVFZl5nQ1VG%2FqacpdF%2BOZYGVe7Wz7s
+A Conversation with Werner Vogels on ACM
+http://delivery.acm.org/10.1145/1150000/1142065/p14-o_hanlon.pdf?key1=1142065&key2=1834464031&coll=DL&dl=ACM&ip=216.113.168.141&CFID=19496996&CFTOKEN=47348168
+http://queue.acm.org/detail.cfm?id=1142065
+Another interview with inforweek
+Q&A: Amazon CTO Werner Vogels
+InformationWeek's 2008 Chief of the Year discusses Web services architecture, cloud computing, and his changing role as CTO
+http://www.informationweek.com/news/global-cio/interviews/212501404?printer_friendly=this-page
+
+Software architecture
+Software Engineering Institute
+http://www.sei.cmu.edu/
+Definitions of Architecture
+* "The software architecture of a program or computing system is the structure or structures of the system, which comprise the software elements, the externally visible properties of those elements, and the relationships among them." – "Software Architecture in Practice": http://search.safaribooksonline.com/0-321-15495-9
+* "A system's architecture codifies a set of decisions that are both hardest to change and that have the most significant impact on the way the system manifests its quality attributes." – Jeromy Carriere, but inspired by "Architectural Modifications to Deployed Software": http://homepages.cwi.nl/~ralf/am/paper.pdf
+Books
+Links are to Safari Books Online. Copies of the first two books will be provided as part of the training program.
+Book Recommended Chapters Comments
+Software Architecture in Practice 2, 4, 5, 14, 15 Core to the boot camp
+Software Systems Architecture: Working with Stakeholders Using Viewpoints and Perspectives 3, 4, 10, 11, 16, 17, 18, 20 Defines "viewpoints"; part IV, on perspectives, is a great advanced topic
+97 Things Every Software Architect Should Know A light read - mostly for fun
+The Process of Software Architecting Not prescriptive, just for background
+Documenting Software Architectures: Views and Beyond An alternative approach to the one defined in the template, but useful background
+Beautiful Architecture Also an interesting read, not prescriptive
+Patterns of Enterprise Application Architecture TBD
+Blogs
+James Hamilton's blog - http://perspectives.mvdirona.com/
+High Scalability - http://highscalability.com/
+How to measure anything - http://www.amazon.com/How-Measure-Anything-Intangibles-Business/dp/0470539399/ref=sr_1_1?ie=UTF8&s=books&qid=1276275026&sr=8-1
+LAAAM - Lightweight Architecture Alternative Assessment Method
+Jeromy Carriere - http://technogility.sjcarriere.com/2009/05/11/its-pronounced-like-lamb-not-like-lame/
+Another one COWS (Criteria-Options-Weights-Scores) - http://rfptemplates.technologyevaluation.com/what-is-a-decision-matrix.html
+PAC vs MVC
+http://arxiv.org/ftp/arxiv/papers/1001/1001.3489.pdf
+FYI -- just found this pretty cool mechanism for type-safe wiring/callback done in QT: http://doc.qt.nokia.com/latest/signalsandslots.html
+
+
