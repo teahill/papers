@@ -135,3 +135,23 @@ http://arxiv.org/ftp/arxiv/papers/1001/1001.3489.pdf
 FYI -- just found this pretty cool mechanism for type-safe wiring/callback done in QT: http://doc.qt.nokia.com/latest/signalsandslots.html
 
 
+Facebook architecture
+http://www.quora.com/What-is-Facebooks-architecture
+http://www.infoq.com/presentations/Facebook-Moving-Fast-at-Scale
+HipHop for PHP: move fast - source code transformer
+http://developers.facebook.com/blog/post/358
+Thrift - Cross language service development
+http://thrift.apache.org/
+BigPipe - SiteSpeed, parallel web page processing
+http://www.facebook.com/notes/facebook-engineering/bigpipe-pipelining-web-pages-for-high-performance/389414033919
+InfoQ talk by Robert Johnson, May 2010 - Facebook: Moving fast at scale
+http://www.infoq.com/presentations/Facebook-Moving-Fast-at-Scale
+Release process
+http://agilewarrior.wordpress.com/2011/05/28/how-facebook-pushes-new-code-live/
+http://www.facebook.com/video/video.php?v=10100259101684977&oid=9445547199&comments
+
+Mobile
+Peter-Paul Koch
+http://quirksmode.org/
+NYtimes: Apps Everywhere, but No Unifying Link
+http://www.nytimes.com/2015/01/06/technology/tech-companies-look-to-break-down-walls-between-apps.html?_r=0
