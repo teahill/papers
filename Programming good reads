@@ -16,6 +16,9 @@ DP problems:
 http://people.cs.clemson.edu/~bcdean/dp_practice/
 http://en.wikipedia.org/wiki/Longest_common_subsequence_problem
 
+//Edit distance DP program
+http://www.stanford.edu/class/cs124/lec/med.pdf 
+
 Backtracking problems:
 Eight queen puzzle
 Map coloring
