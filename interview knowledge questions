@@ -1,3 +1,25 @@
 
 JAVA HUNGRY - list of Java questions
 http://javahungry.blogspot.com/
+
+Use "final"
+http://stackoverflow.com/questions/154314/when-should-one-use-final-for-method-parameters-and-local-variables
+
+Final fields - Marking fields as final forces them to be set by end of construction, making that field reference immutable. 
+This allows safe publication of fields and can avoid the need for synchronization on later reads. 
+(Note that for an object reference, only the field reference is immutable - things that object reference refers to 
+can still change and that affects the immutability.)
+
+Final static fields - Although I use enums now for many of the cases where I used to use static final fields.
+Consider but use judiciously:
+
+Final classes - Framework/API design is the only case where I consider it.
+Final methods - Basically same as final classes. If you're using template method patterns like crazy and marking stuff final, 
+you're probably relying too much on inheritance and not enough on delegation.
+Ignore unless feeling anal:
+
+Method parameters and local variables - I RARELY do this largely because I'm lazy and I find it clutters the code. 
+I will fully admit that marking parameters and local variables that I'm not going to modify is "righter". 
+I wish it was the default. But it isn't and I find the code more difficult to understand with finals all over.
+If I'm in someone else's code, I'm not going to pull them out but if I'm writing new code I won't put them in. 
+One exception is the case where you have to mark something final so you can access it from within an anonymous inner class.
