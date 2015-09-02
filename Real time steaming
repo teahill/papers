@@ -12,3 +12,12 @@ SPARK - in memory, still not mature, eco system not there yet
 more kafka vs storm
 
 http://www.slideshare.net/gschmutz/kafka-andstromeventprocessinginrealtime?related=1
+
+SPARK, Storm
+http://www.slideshare.net/ptgoetz/apache-storm-vs-spark-streaming?related=2
+
+Both are micro batch
+Storm Core -> Trident: steaming -> micro batch
+SPARK: batch -> micro batch in memory
+
+LAMBDA -> batch + real time + functional
