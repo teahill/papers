@@ -2,29 +2,23 @@ Java Memory - 8
 
 http://www.infoq.com/articles/Java-PERMGEN-Removed
 
-
 Java currency tuorial
-
 http://tutorials.jenkov.com/java-concurrency/java-memory-model.html
 
 Slide share:
-
 http://www.slideshare.net/rinoto/concurrent-programming-in-java
 
 Tutorial:
-
 http://www.vogella.com/tutorials/JavaConcurrency/article.html
 
-
 Jersey Rx
-
 https://jersey.java.net/documentation/latest/user-guide.html#rx-client
-
 
 Java 7: HashMap vs ConcurrentHashMap
 https://dzone.com/articles/java-7-hashmap-vs
 
-
 Java theory and practice: Building a better HashMap
 http://www.ibm.com/developerworks/java/library/j-jtp08223/index.html
 
+HashMap Vs. ConcurrentHashMap Vs. SynchronizedMap – How a HashMap can be Synchronized in Java
+http://crunchify.com/hashmap-vs-concurrenthashmap-vs-synchronizedmap-how-a-hashmap-can-be-synchronized-in-java/
