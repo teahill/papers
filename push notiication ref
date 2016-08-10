@@ -1,0 +1,67 @@
+- What 671 million push notifications say about how people spend their day
+
+http://andrewchen.co/breaking-down-671-million-push-notifications-by-hour/
+
+iOS and Android app usage kicks up in the morning around 7am, gradually builds throughout the day before falling off its peak at 9pm
+
+
+- Why 60% of your users opt-out of push notifications, and what to do about it
+
+http://andrewchen.co/why-people-are-turning-off-push/
+
+iOS opt in, Android no opt in
+
+High opt in:  Ride sharing, Food & Beverage, Financial,  etc. ~79%
+Low: Social, News & Media ~ 39%
+
+They only want to receive push notifications that are relevant, time-sensitive, and valuable. 
+
+1) Make a Great First Impression
+
+Start off the user’s app experience with a clear and informative splash page, 
+an extra screen that pops up the first time a user opens your app. Use this prime real estate 
+to showcase your app’s top features, and to demonstrate the value of opting into push notifications. 
+When new users fully understand the value of your app and how push messages will add to their experience, 
+they are much more likely to opt-in to push notifications.
+
+2) Pop the Question
+
+You have one shot to ask for push permissions; ensure it isn’t wasted by first asking in a pre-ask splash page 
+or in-app message, rather than the official iOS page. By diverting the initial question and gauging the user’s interest, 
+you can save your one opportunity for when the time is right. 
+If the user clicks “YES” in the pre-ask page, prompt them to the official permission page; 
+if the user clicks “NO,” wait until they are more familiar with your app and ask them again later.
+
+3) Maintain the Relationship
+
+Once your users begin receiving push notifications, it is critical that you respect this incredibly personal communication channel. 
+By only sending hyper-targeted, personalized push messages that actually add value, 
+you can ensure that your users don’t later opt-out of push, or worse yet, uninstall your app.
+
+- Push notification click-through rates via Alli Brian @ Kahuna
+
+http://andrewchen.co/new-data-on-push-notification-ctrs-shows-the-best-apps-perform-4x-better-than-the-worst-heres-why-guest-post/
+
+Notes: 
+
+High engagement: Utility/Financial, Ride sharing, travel etc. ~40%
+Low: Social, e-commerce ~ 12%
+
+1. Find your cadence: 
+sending the right message to the right person at the right time. In many cases, 
+the elegance is in knowing when not to send a message
+
+2. Make it personal: 
+Use a unique identifier so even anonymous users will get accurately personalized notifications
+device-based tracking does more harm than good
+
+3. Timing is everything
+Great timing should consider both user behavior and urgency
+Notifications that include urgent information need to be sent at a time that is relevant to the context of the message
+
+customizing delivery time based on user preference results in an average conversion uplift of 384%.
+
+Great push is all about inspiring delight – facilitating a relevant and valuable app experience for your users and securing a prized place in their daily routines. 
+
+ocus on understanding what your users value about your service and tailor your messages to their unique needs and interests
+
